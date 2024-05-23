@@ -30,10 +30,6 @@ drawer(){
             leading: Icon(Icons.sports),
           ),
           ListTile(
-            title: Text('Tecnologia'),
-            leading: Icon(Icons.laptop),
-          ),
-          ListTile(
             title: Text('Entretenimiento'),
             leading: Icon(Icons.movie),
           ),

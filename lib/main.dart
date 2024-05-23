@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:actividad_2/components/bottomNavigationBar.dart';
 import 'package:actividad_2/components/drawer.dart';
 import 'package:flutter/material.dart';
 
@@ -22,8 +23,10 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue,
         ),
 
+        // menu drawer
         drawer: drawer(),
-
+        // bottom navigation
+        bottomNavigationBar: bottomNavigationBar(), 
 
       ),
 
