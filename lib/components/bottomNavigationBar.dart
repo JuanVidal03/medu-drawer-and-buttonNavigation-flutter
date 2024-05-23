@@ -19,7 +19,6 @@ bottomNavigationBar(){
         icon: Icon(Icons.movie),
         label: 'Entretenimiento'
       ),
-
     ],
   );
 }

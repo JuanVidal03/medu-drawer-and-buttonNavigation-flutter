@@ -3,7 +3,7 @@
 
 import 'package:flutter/material.dart';
 
-drawer(){
+drawer(cambioVista){
   return Drawer(
 
     child: Padding(
@@ -20,18 +20,27 @@ drawer(){
               ),
             )
           ),
-          
+          // elementos de navegacion
           ListTile(
             title: Text('Inicio'),
             leading: Icon(Icons.home),
+            onTap: () {
+              cambioVista.cambioPosicion(0);
+            },
           ),
           ListTile(
             title: Text('Deportes'),
             leading: Icon(Icons.sports),
+            onTap: () {
+              cambioVista.cambioPosicion(1);
+            },
           ),
           ListTile(
             title: Text('Entretenimiento'),
             leading: Icon(Icons.movie),
+            onTap: () {
+              cambioVista.cambioPosicion(2);
+            },
           ),
         ],
       ),
